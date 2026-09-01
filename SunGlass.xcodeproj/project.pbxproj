@@ -10,9 +10,22 @@
 		CF897E413005B87600CF7DC7 /* SunGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C0D3E1A73005B87700CF7DC7 /* Exceptions for "SunGlass" folder in "SunGlass" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CF897E403005B87600CF7DC7 /* SunGlass */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CF897E433005B87600CF7DC7 /* SunGlass */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C0D3E1A73005B87700CF7DC7 /* Exceptions for "SunGlass" folder in "SunGlass" target */,
+			);
 			path = SunGlass;
 			sourceTree = "<group>";
 		};
@@ -256,11 +269,15 @@
 				DEVELOPMENT_TEAM = TJNUGC69RA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunGlass/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "周囲の光の強さと色を推定し、ステンドグラスへ記録するためにカメラを使用します。映像は保存・送信しません。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報の記録をオンにした作品で、光を集めた場所を約100m精度に丸めて端末内へ保存するために使用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "完成したステンドグラスを写真ライブラリへ保存するために使用します。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "思い出の写真から代表色を取り出して作品へ反映するために使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -274,7 +291,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,11 +305,15 @@
 				DEVELOPMENT_TEAM = TJNUGC69RA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunGlass/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "周囲の光の強さと色を推定し、ステンドグラスへ記録するためにカメラを使用します。映像は保存・送信しません。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報の記録をオンにした作品で、光を集めた場所を約100m精度に丸めて端末内へ保存するために使用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "完成したステンドグラスを写真ライブラリへ保存するために使用します。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "思い出の写真から代表色を取り出して作品へ反映するために使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +327,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
